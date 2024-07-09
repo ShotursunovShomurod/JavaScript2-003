@@ -1,0 +1,80 @@
+.navbar{
+    width: 100%;
+    border: 1px solid red;
+    .navbar__wrapper{
+        height: 70px;
+        width: 100%;
+        border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+        .navbar__logo{
+            width: 15%;
+            border: 1px solid red;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            i{
+                font-size: 24px;
+            }
+            img{
+                width: 30px;
+                height: 30px;
+            }
+            p{
+                font-size: 20px;
+                font-weight: 700;
+            }
+        }
+        .navbar__search{
+            width: 70%;
+            border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .navbar__block{
+                max-width: 100%;
+                display: flex;
+                align-items: center;
+                border: 1px solid #222;
+                justify-content: center;
+                background: black;
+                border-radius: 20px;
+                input{
+                    border: none;
+                    outline: none;
+                    background: transparent;
+                    width: 600px;
+                    padding: 10px;
+                    font-size: 20px;
+                    // border: none;
+
+                }
+                i:nth-child(2){
+                    font-size: 22px;
+                }
+                button{
+                    border-radius: 0 20px 20px 0;
+                    background: #222;
+                    width: 60px;
+                    height: 40px;
+                }
+            }
+        }
+        .navbar__profile{
+            width: 15%;
+            display: flex;
+            align-items: center;
+            border: 1px solid red;
+            justify-content: flex-end;
+            gap: 20px;
+            i{
+                font-size: 24px;
+            }
+            img{
+                border-radius: 50%;
+                width: 44px;
+                height: 44px;
+            }
+        }
+    }
+}
