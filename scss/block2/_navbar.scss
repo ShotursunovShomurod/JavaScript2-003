@@ -1,20 +1,19 @@
 .navbar{
     width: 100%;
-    border: 1px solid red;
+    background: #0f0f0f;
     .navbar__wrapper{
         height: 70px;
         width: 100%;
-        border: 1px solid red;
         display: flex;
         justify-content: space-between;
         .navbar__logo{
             width: 15%;
-            border: 1px solid red;
             display: flex;
             align-items: center;
             gap: 10px;
             i{
                 font-size: 24px;
+                color: #fff;
             }
             img{
                 width: 30px;
@@ -23,11 +22,11 @@
             p{
                 font-size: 20px;
                 font-weight: 700;
+                color: #fff;
             }
         }
         .navbar__search{
             width: 70%;
-            border: 1px solid red;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -35,10 +34,13 @@
                 max-width: 100%;
                 display: flex;
                 align-items: center;
-                border: 1px solid #222;
+                // border: 1px solid #222;
                 justify-content: center;
-                background: black;
-                border-radius: 20px;
+                border-radius: 20px 20px 20px 20px;
+                border: 1px solid #3e3e3e;
+                
+                // background: black;
+                // border-radius: 20px;
                 input{
                     border: none;
                     outline: none;
@@ -47,16 +49,25 @@
                     padding: 10px;
                     font-size: 20px;
                     // border: none;
+                    color: #fff;
 
                 }
                 i:nth-child(2){
                     font-size: 22px;
+                    color: #fff;
+                    padding-right: 10px;
                 }
                 button{
                     border-radius: 0 20px 20px 0;
                     background: #222;
                     width: 60px;
-                    height: 40px;
+                    height: 45px;
+                    border: none;
+                    border: 1px solid #3e3e3e;
+                    i{
+                        color: #fff;
+                        font-size: 20px;
+                    }
                 }
             }
         }
@@ -64,11 +75,11 @@
             width: 15%;
             display: flex;
             align-items: center;
-            border: 1px solid red;
             justify-content: flex-end;
             gap: 20px;
             i{
                 font-size: 24px;
+                color: #fff;
             }
             img{
                 border-radius: 50%;
